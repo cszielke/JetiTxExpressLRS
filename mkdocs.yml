@@ -1,0 +1,26 @@
+site_name: IA-COM Controller
+site_dir: "\\\\kplanas01\\web\\docs\\<PROJECTNAME>"
+nav:
+  - Home: index.md
+  - About: about.md
+  - Hilfe: help.md
+theme: 
+    name: material
+    language: de
+    font: false
+markdown_extensions:
+  - pymdownx.extra
+  - admonition
+  - pymdownx.details
+  - pymdownx.arithmatex
+  - pymdownx.tilde
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - markdown.extensions.codehilite:
+      guess_lang: false
+      linenums: false
+
+extra_javascript:
+  - js/extra.js
+  - 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML'
+  - Disabled_js/MathJax.min.js
