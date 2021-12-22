@@ -10,7 +10,7 @@ If you have a receiver that outputs CRSF serial protocol (ExpressLRS, Crossfire,
 
 ### Wiring and Flashing
 
-See the wiki [Flashing and Wiring](https://github.com/CapnBry/CRServoF/wiki/Wiring)
+See the wiki [Flashing and Wiring](./doc/wiring.md)
 
 ### Channel Mapping
 
